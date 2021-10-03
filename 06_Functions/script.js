@@ -22,15 +22,20 @@ console.log(myStudents.length);
 
 //destructuring object
 let { firstname, lastname, ...address } = {
-  firstname: 'Umaporn',
-  lastname: 'Supa',
+  firstname: 'Natasia',
+  lastname: 'Yusuwapan',
   province: 'Bangkok',
   contact: '02-470-9810'
 };
 function yourAddress(addr) {
   return addr;
 }
+function fullName(fn){
+  return fn;
+}
+console.log(fullName(firstname +' '+ lastname));
 console.log(yourAddress(address));
+console.log();
 
 //copy object properties with spread operator
 

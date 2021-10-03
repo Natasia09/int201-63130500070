@@ -2,7 +2,9 @@ function randNumber() {
   return Math.floor(Math.random() * 10) + 1;
 }
 const randValue = randNumber();
+console.log(` The random number is ${randValue}`);
 let guessValue = 5;
+
 if (randValue >= 1 && randValue <= 10) {
   if (randValue > guessValue) {
     console.log(`Too Low, the random number is ${randValue}`);
