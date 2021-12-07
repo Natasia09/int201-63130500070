@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS CreateElement Demo</title>
+</head>
+<body>
+    <script>
+        // let div = document.createElement('div');
+        // div.id = 'content';
+        // div.innerHTML = '<p>CreateElement example</p>';
+        // document.body.appendChild(div);
+
+      // create a new div and set its attributes
+let div = document.createElement('div');
+div.id = 'content';
+div.className = 'note';
+
+// create a new text node and add it to the div
+let text = document.createTextNode('CreateElement example');
+div.appendChild(text);
+
+// add div to the document
+document.body.appendChild(div);
+
+document.body.appendChild(div);
+    </script>
+</body>
+</html>
+<!-- สรุป
+document.createElement()สร้างองค์ประกอบ HTML ใหม่
+element.appendChild()ผนวกองค์ประกอบ HTML จะเป็นองค์ประกอบที่มีอยู่ -->

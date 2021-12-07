@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>querySelector() Demo</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="img/logo.jpg" alt="Logo" id="logo">
+        </div>
+        <nav class="primary-nav">
+            <ul>
+                <li class="menu-item current"><a href="#home">Home</a></li>
+                <li class="menu-item"><a href="#services">Services</a></li>
+                <li class="menu-item"><a href="#about">About</a></li>
+                <li class="menu-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to the JS Dev Agency</h1>
+
+        <div class="container">
+            <section class="section-a">
+                <h2>UI/UX</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem placeat, atque accusamus voluptas
+                    laudantium facilis iure adipisci ab veritatis eos neque culpa id nostrum tempora tempore minima.
+                    Adipisci, obcaecati repellat.</p>
+                <button>Read More</button>
+            </section>
+            <section class="section-b">
+                <h2>PWA Development</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni fugiat similique illo nobis quibusdam
+                    commodi aspernatur, tempora doloribus quod, consectetur deserunt, facilis natus optio. Iure
+                    provident labore nihil in earum.</p>
+                <button>Read More</button>
+            </section>
+            <section class="section-c">
+                <h2>Mobile App Dev</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eos culpa laudantium consequatur ea!
+                    Quibusdam, iure obcaecati. Adipisci deserunt, alias repellat eligendi odit labore! Fugit iste sit
+                    laborum debitis eos?</p>
+                <button>Read More</button>
+            </section>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
+<!-- ตัวเลือกประเภท
+ในการเลือกองค์ประกอบตามชื่อโหนด คุณต้องใช้ตัวเลือกประเภท เช่นaเลือก<a>องค์ประกอบทั้งหมด:
+
+elementName
+ตัวอย่างต่อไปนี้จะค้นหาh1องค์ประกอบแรกในเอกสาร:
+
+let firstHeading = document.querySelector('h1');
+ภาษารหัส:  JavaScript  ( จาวาสคริปต์)
+และตัวอย่างต่อไปนี้จะค้นหาh2องค์ประกอบทั้งหมด:
+
+let heading2 = document.querySelectorAll('h2');
+ภาษารหัส:  JavaScript  ( จาวาสคริปต์)
+3) ตัวเลือกคลาส
+ในการค้นหาองค์ประกอบที่มีแอตทริบิวต์คลาสที่กำหนด คุณใช้ไวยากรณ์ตัวเลือกคลาส:
+
+.className
+ภาษารหัส:  CSS  ( css )
+ตัวอย่างต่อไปนี้จะค้นหาองค์ประกอบแรกที่มีmenu-itemคลาส:
+
+let note = document.querySelector('.menu-item');
+ภาษารหัส:  JavaScript  ( จาวาสคริปต์)
+และตัวอย่างต่อไปนี้จะค้นหาองค์ประกอบทั้งหมดที่มีmenuคลาส:
+
+let notes = document.querySelectorAll('.menu-item');
+ภาษารหัส:  JavaScript  ( จาวาสคริปต์)
+4) ตัวเลือก ID
+ในการเลือกองค์ประกอบตามค่าของ id คุณใช้ไวยากรณ์ตัวเลือก id:
+
+#id
+ภาษารหัส:  CSS  ( css )
+ตัวอย่างต่อไปนี้จะค้นหาองค์ประกอบแรกที่มี id #logo:
+
+let logo = document.querySelector('#logo'); -->
