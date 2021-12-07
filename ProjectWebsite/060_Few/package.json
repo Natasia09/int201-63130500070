@@ -1,0 +1,12 @@
+{
+  "name": "week12_28_10_2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "product.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

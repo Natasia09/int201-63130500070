@@ -1,0 +1,116 @@
+.darkmode {
+    --clr-light: #fdffc4;
+    --clr-dark: #1b201f;
+    --clr-white: #ffffff;
+
+    --foreground: var(--clr-light);
+    --background: var(--clr-dark);
+    --white: var(--clr-white);
+}
+
+body {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    background-color: var(--background);
+    transition : 1200ms ease-in-out
+}
+
+#heading {
+    font-family: 'Cabin', sans-serif;
+}
+
+#Content {
+    color : var(--white);
+    transition : 1200ms ease-in-out
+}
+
+h5 {
+    font-weight: bolder;
+}
+
+.col:hover {
+    box-shadow: 1px 1px 2px black, 0 0 50px gray, 0 0 5px dimgray;
+}
+
+#Simg:hover {
+    fill: white;
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(90, 89, 89));
+}
+
+#delete:hover {
+    fill: rgb(243, 114, 114);
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(90, 89, 89));
+}
+
+#show:hover {
+    fill: white;
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(90, 89, 89));
+}
+
+input[type=text]:focus {
+    border: 3px solid rgb(89, 118, 221);
+}
+
+input[type=text] {
+    margin-left: 20px;
+    width: 20%;
+    height: 15px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 12px 20px 12px 20px;
+    font-size: 18px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.form-check {
+    margin : -2% 0 0 5%;
+}
+
+#Wrap {
+    margin-top: -2%;
+    padding: 5%;
+    background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80');
+    background-position: center left;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#divWrap {
+    display: none;
+}
+
+#search {
+    width: 80%;
+    float: left;
+}
+
+#count {
+    width: auto;
+    float: right;
+}
+
+
+#labelText {
+    color : var(--white); 
+    transition : 1200ms ease-in-out
+}
+
+
+.dark-mode-toggle {
+    z-index: 100;
+    margin-top: 2em;
+    margin-left: 90%;
+    color: var(--foreground);
+    border: 2px solid currentColor;
+    padding: 4px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 32px;
+    height: 35px;
+}
+
+
+
